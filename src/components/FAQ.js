@@ -7,7 +7,7 @@ export default class FAQ extends React.Component {
       <Segment basic padded>
         <Container text textAlign="justified">
           <Header as="h2" textAlign="center" color="teal">
-            Questions?
+            <span id="faq">Questions?</span>
             <Header.Subheader>
               Get{"'"}em answers here.
             </Header.Subheader>
