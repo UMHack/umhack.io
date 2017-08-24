@@ -12,7 +12,7 @@ export default class FAQ extends React.Component {
               Get{"'"}em answers here.
             </Header.Subheader>
           </Header>
-          <Grid stackable padded="vertically">
+          <Grid stackable>
             <Grid.Row columns={2}>
               <Grid.Column>
                 <Header size="small" color="green">
