@@ -18,9 +18,10 @@ export default class PageHeader extends React.Component {
         <Container text>
           <Image src={logo} size="medium" alt="Logo of UMHack" centered />
           <Header as="h1">
-            UMHack
+            FaceHack 2017
             <Header.Subheader>
-              Univerisity of Malaya | December 2017
+              FCSIT, University of Malaya | 17th – 19th November 2017
+
             </Header.Subheader>
           </Header>
           <Divider hidden />

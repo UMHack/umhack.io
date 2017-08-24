@@ -8,28 +8,33 @@ export default class About extends React.Component {
         <Container text textAlign="justified">
           <Header as="h2" textAlign="center">About Us</Header>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            FaceHack 2017 is the signature Artificial Intelligence hackathon in Malaysia, bringing together 100 students and tech enthusiasts from various local universities to learn about the current state of Artificial Intelligence by competing in a 48-hour hackathon format.
           </p>
           <p>
-            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            Organized by Department of Artificial Intelligence at Faculty of Computer Science & IT, University of Malaya, FaceHack will give participants a platform to build and validate their innovative Artificial Intelligence ideas and take their ideas to the next level: Execution.
+          </p>
+          <p>
+            FaceHack aims to be the stepping stone to start a new AI conversation in the country and an effort to build accurate and scientific awareness of current state of AI, among students and tech scene in Malaysia.
           </p>
           <Divider hidden />
           <Header as="h2" textAlign="center">Venue</Header>
           <Grid stackable columns={2} padded="vertically">
             <Grid.Column>
               <p>
-                Lorem ipsum dolor sit,<br />
-                Consectetuer adipiscing,<br />
-                Aenean commodo ligula.,<br />
-                Aenean massa strong.
+                Faculty of Computer Science and Information Technology,<br />
+                University of Malaya,<br />
+                Jalan Universiti,<br />
+                50603 Kuala Lumpur,<br />
+                Wilayah Persekutuan Kuala Lumpur,<br />
+                Malaysia.
               </p>
             </Grid.Column>
             <Grid.Column>
               <p>
-                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                University of Malaya is one of the oldest and most esteemed university in Malaysia, located in the southwest of Kuala Lumpur.
               </p>
               <p>
-                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                To get to University of Malaya, simply take the LRT to KL Gateway-Universiti LRT Station (KJ19), where Rapid KL Bus (T789) can get you here easily. If you are taking MRT, make a stop at Phileo Damansara MRT station (SBK11) and look for MRT Feeder Bus (T815), which heads straight to University of Malaya.
               </p>
             </Grid.Column>
           </Grid>

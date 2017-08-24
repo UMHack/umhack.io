@@ -3,7 +3,7 @@ import { Container, Divider } from 'semantic-ui-react'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
-import Sponsor from './components/Sponsor'
+// import Sponsor from './components/Sponsor'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 
@@ -15,8 +15,6 @@ class App extends Component {
         <Header />
         <Divider />
         <About />
-        <Divider />
-        <Sponsor />
         <Divider />
         <FAQ />
         <Divider />
