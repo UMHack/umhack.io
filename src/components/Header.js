@@ -31,7 +31,7 @@ export default class PageHeader extends React.Component {
           <Input
             fluid
             action={
-              <Button animated>
+              <Button animated color="blue">
                 <Button.Content visible>Subscribe</Button.Content>
                 <Button.Content hidden>
                   <Icon name="feed" />

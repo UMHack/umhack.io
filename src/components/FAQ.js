@@ -6,7 +6,7 @@ export default class FAQ extends React.Component {
     return (
       <Segment basic padded>
         <Container text textAlign="justified">
-          <Header as="h2" textAlign="center">
+          <Header as="h2" textAlign="center" color="teal">
             Questions?
             <Header.Subheader>
               Get{"'"}em answers here.
@@ -15,7 +15,7 @@ export default class FAQ extends React.Component {
           <Grid stackable padded="vertically">
             <Grid.Row columns={2}>
               <Grid.Column>
-                <Header size="small">
+                <Header size="small" color="green">
                   Who can participate in FaceHack 2017?
                 </Header>
                 <p>
@@ -23,7 +23,7 @@ export default class FAQ extends React.Component {
                 </p>
               </Grid.Column>
               <Grid.Column>
-                <Header size="small">
+                <Header size="small" color="green">
                   What are the rules for forming a team?
                 </Header>
                 <p>
@@ -33,7 +33,7 @@ export default class FAQ extends React.Component {
             </Grid.Row>
             <Grid.Row columns={2}>
               <Grid.Column>
-                <Header size="small">
+                <Header size="small" color="green">
                   Why is FaceHack 2017 being organized?
                 </Header>
                 <p>
@@ -41,7 +41,7 @@ export default class FAQ extends React.Component {
                 </p>
               </Grid.Column>
               <Grid.Column>
-                <Header size="small">
+                <Header size="small" color="green">
                   How long will this hackathon take?
                 </Header>
                 <p>

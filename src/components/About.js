@@ -6,7 +6,7 @@ export default class About extends React.Component {
     return (
       <Segment basic padded>
         <Container text textAlign="justified">
-          <Header as="h2" textAlign="center">About Us</Header>
+          <Header as="h2" textAlign="center" color="blue">About Us</Header>
           <p>
             FaceHack 2017 is the signature Artificial Intelligence hackathon in Malaysia, bringing together 100 students and tech enthusiasts from various local universities to learn about the current state of Artificial Intelligence by competing in a 48-hour hackathon format.
           </p>
@@ -17,7 +17,7 @@ export default class About extends React.Component {
             FaceHack aims to be the stepping stone to start a new AI conversation in the country and an effort to build accurate and scientific awareness of current state of AI, among students and tech scene in Malaysia.
           </p>
           <Divider hidden />
-          <Header as="h2" textAlign="center">Venue</Header>
+          <Header as="h2" textAlign="center" color="blue">Venue</Header>
           <Grid stackable columns={2} padded="vertically">
             <Grid.Column>
               <p>
