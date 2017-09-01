@@ -4,10 +4,10 @@ import { Segment, Header, Container, Grid } from 'semantic-ui-react'
 export default class FAQ extends React.Component {
   render() {
     return (
-      <Segment basic padded>
+      <Segment basic padded attached>
         <Container text textAlign="justified">
           <Header as="h2" textAlign="center" color="teal">
-            <span id="faq">Questions?</span>
+            Questions?
             <Header.Subheader>
               Get{"'"}em answers here.
             </Header.Subheader>
@@ -55,7 +55,7 @@ export default class FAQ extends React.Component {
             <Header.Subheader>
               E-mail us at
               {' '}
-              <a href="mailto:umhack@gmail.com">umhack@gmail.com</a>
+              <a href="mailto:facehack@gmail.com">facehack@gmail.com</a>
               {' '}
               to get more info.
             </Header.Subheader>

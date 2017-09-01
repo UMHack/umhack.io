@@ -9,29 +9,33 @@ import {
   Container,
   Divider
 } from 'semantic-ui-react'
-import logo from '../logo.svg'
-
+import { any } from 'prop-types'
+import background from '../header-min.jpg'
 export default class PageHeader extends React.Component {
+  static propTypes = {
+    logo: any
+  }
+
   render() {
     return (
-      <Segment textAlign="center" padded basic>
+      <Segment id="header"  textAlign="center" attached padded basic style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
         <Container text>
-          <Image src={logo} size="medium" alt="Logo of UMHack" centered />
-          <Header as="h1">
-            FaceHack 2017
+          <Divider hidden />
+          <Image src={this.props.logo} size="medium" alt="Logo of UMHack" centered />
+          <Header as="h1" inverted>
             <Header.Subheader>
               FCSIT, University of Malaya | 17th – 19th November 2017
-
             </Header.Subheader>
           </Header>
           <Divider hidden />
-          <Header size="tiny" textAlign="center">
+          <Header size="tiny" textAlign="center" inverted>
             Subscribe for latest updates!
           </Header>
           <Input
+            id="about"
             fluid
             action={
-              <Button animated color="blue">
+              <Button animated color="blue" inverted>
                 <Button.Content visible>Subscribe</Button.Content>
                 <Button.Content hidden>
                   <Icon name="feed" />
@@ -41,6 +45,7 @@ export default class PageHeader extends React.Component {
             icon="mail"
             iconPosition="left"
             placeholder="Your email address..."
+            inverted
           />
         </Container>
       </Segment>

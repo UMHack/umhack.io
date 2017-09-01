@@ -1,43 +1,30 @@
 import React from 'react'
-import { Segment, Header, Container, Divider, Grid } from 'semantic-ui-react'
+import { Segment, Header, Container, Grid, Image } from 'semantic-ui-react'
+import about from '../about-min.jpg'
+import text from '../facehack_text-min.png'
 
 export default class About extends React.Component {
   render() {
     return (
-      <Segment basic padded>
-        <Container text textAlign="justified">
-          <Header as="h2" textAlign="center" color="blue">
-            <span id="about">About Us</span>
+      <Segment padded inverted basic attached style={{backgroundImage: `url(${about})`, backgroundSize: 'cover'}}>
+        <Container text>
+          <Header as="h2" textAlign="center" inverted>
+            About Us
           </Header>
-          <p>
-            FaceHack 2017 is the signature Artificial Intelligence hackathon in Malaysia, bringing together 100 students and tech enthusiasts from various local universities to learn about the current state of Artificial Intelligence by competing in a 48-hour hackathon format.
-          </p>
-          <p>
-            Organized by Department of Artificial Intelligence at Faculty of Computer Science & IT, University of Malaya, FaceHack will give participants a platform to build and validate their innovative Artificial Intelligence ideas and take their ideas to the next level: Execution.
-          </p>
-          <p>
-            FaceHack aims to be the stepping stone to start a new AI conversation in the country and an effort to build accurate and scientific awareness of current state of AI, among students and tech scene in Malaysia.
-          </p>
-          <Divider hidden />
-          <Header as="h2" textAlign="center" color="blue">Venue</Header>
-          <Grid stackable columns={2} padded="vertically">
+          <Grid stackable columns={2}>
             <Grid.Column>
               <p>
-                Faculty of Computer Science and Information Technology,<br />
-                University of Malaya,<br />
-                Jalan Universiti,<br />
-                50603 Kuala Lumpur,<br />
-                Wilayah Persekutuan Kuala Lumpur,<br />
-                Malaysia.
+                FaceHack 2017 is the signature Artificial Intelligence hackathon in Malaysia, bringing 100 students and tech enthusiasts together from various local universities to learn about the current state of Artificial Intelligence and its future by competing in a 48-hour hackathon format.
               </p>
+              <p id="venue">
+                Organized by the Department of Artificial Intelligence, Faculty of Computer Science & IT from the University of Malaya, FaceHack provides a platform for participants to build and validate innovative ideas and take it them to the next level: Execution.
+             </p>
             </Grid.Column>
             <Grid.Column>
               <p>
-                University of Malaya is one of the oldest and most esteemed university in Malaysia, located in the southwest of Kuala Lumpur.
+                As the first of many hackathons to come, FaceHack 2017 aims to synergize the growing power of AI to students and tech enthusiasts as well as push their knowledge and technical abilities to the limits.
               </p>
-              <p>
-                To get to University of Malaya, simply take the LRT to KL Gateway-Universiti LRT Station (KJ19), where Rapid KL Bus (T789) can get you here easily. If you are taking MRT, make a stop at Phileo Damansara MRT station (SBK11) and look for MRT Feeder Bus (T815), which heads straight to University of Malaya.
-              </p>
+              <Image centered src={text}/>
             </Grid.Column>
           </Grid>
         </Container>
